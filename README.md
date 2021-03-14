@@ -1,0 +1,3 @@
+- 👋 Hi, I’m @codefoxs
+- 👀 I’m interested in Finance and Programing.
+- 🌱 I’m currently learning Python and Matlab.
