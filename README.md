@@ -1,3 +1,3 @@
 - 👋 Hi, I’m @codefoxs
 - 👀 I’m interested in Finance and Programing.
-- 🌱 I’m currently learning Python and Matlab.
+- 🌱 I’m currently learning and using Python and Stata to do my work.
