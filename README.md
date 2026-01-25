@@ -10,4 +10,5 @@
 
 + 📮邮箱：codefox2020@163.com
 + 💡知乎主页：https://www.zhihu.com/people/Keynes
++ 🍕公众号：凯恩斯学计量
 + 🌐GitHub 主页：https://codefoxs.github.io
