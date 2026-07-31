@@ -1,14 +1,190 @@
-## 个人介绍
+<div align="center">
 
-+ 📝经管类在读博士
-+ 💻擅长Python、Stata等编程语言
-+ 🌏精通爬虫、计量分析、自然语言处理等技能
-+ 🍟爱吃垃圾食品
-+ 🧋快乐肥宅
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=codefoxs&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Econometrics%20%C2%B7%20Accounting%20%C2%B7%20Open%20Source%20Tooling&descAlignY=54&descSize=16" width="100%" alt="header" />
 
-## 社交媒体
+<a href="https://codefoxs.github.io">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=5B8DEF&center=true&vCenter=true&width=640&height=60&lines=PhD+Student+in+Accounting+%26+Finance;Stata+Package+Developer;Empirical+Research+%2B+Automation" alt="typing" />
+</a>
 
-+ 📮邮箱：codefox2020@163.com
-+ 💡知乎主页：https://www.zhihu.com/people/Keynes
-+ 🍕公众号：凯恩斯学计量
-+ 🌐GitHub 主页：https://codefoxs.github.io
+<br/>
+
+<a href="mailto:codefox2020@163.com"><img src="https://img.shields.io/badge/Email-codefox2020@163.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" /></a>
+<a href="https://www.zhihu.com/people/Keynes"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-Keynes-0084FF?style=for-the-badge&logo=zhihu&logoColor=white" alt="zhihu" /></a>
+<a href="https://codefoxs.github.io"><img src="https://img.shields.io/badge/Blog-codefoxs.github.io-2EA043?style=for-the-badge&logo=githubpages&logoColor=white" alt="blog" /></a>
+<img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%87%AF%E6%81%A9%E6%96%AF%E5%AD%A6%E8%AE%A1%E9%87%8F-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="wechat" />
+
+</div>
+
+---
+
+## 👋 About Me
+
+> 经管类在读博士，研究方向为 **会计与公司金融实证研究 · 微观计量方法**。
+>
+> 日常在 Stata 与 Python 之间来回横跳：一边跑回归，一边把重复劳动写成命令包。
+> 下面的仓库基本都是自己做实证踩坑之后顺手造的轮子 —— 能少点一次鼠标，就多睡十分钟。
+>
+> 🍟 爱吃垃圾食品 · 🧋 快乐肥宅
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,r,latex,git,github,vscode,js,sqlite&theme=dark" alt="skills" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Stata-1A5F7A?style=flat-square&logoColor=white" alt="Stata" />
+<img src="https://img.shields.io/badge/SAS-0766D1?style=flat-square&logo=sas&logoColor=white" alt="SAS" />
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB" />
+<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://img.shields.io/badge/Crossref-3EB1C8?style=flat-square&logo=crossref&logoColor=white" alt="Crossref" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+
+</div>
+
+---
+
+## 🧰 Stata Toolbox
+
+<div align="center"><i>做实证时长出来的命令包 · 全部开源，欢迎提 issue</i></div>
+
+<br/>
+
+**📐 估计与推断 · Estimation & Inference**
+
+| Command | 说明 | Stars |
+| :--- | :--- | :--- |
+| [**`ivreghdfe2`**](https://github.com/codefoxs/ivreghdfe2) | `ivreghdfe` 增强版：修正二阶段 VCE，补齐 IV 诊断统计量与常数项，并同时保存两个阶段的结果 | ![](https://img.shields.io/github/stars/codefoxs/ivreghdfe2?style=flat-square&label=&color=FFD700) |
+| [**`pstest`**](https://github.com/codefoxs/pstest) | `pstest` 改版：PSM / ebalance 的平衡性检验结果一键转成 dta，方便直接排版成表 | ![](https://img.shields.io/github/stars/codefoxs/pstest?style=flat-square&label=&color=FFD700) |
+
+**🧹 数据处理 · Data Wrangling**
+
+| Command | 说明 | Stars |
+| :--- | :--- | :--- |
+| [**`pmerge`**](https://github.com/codefoxs/pmerge) | 把 SQL 的 join 语义搬进 Stata，底层由 DuckDB 驱动，大表合并不再受内存摆布 | ![](https://img.shields.io/github/stars/codefoxs/pmerge?style=flat-square&label=&color=FFD700) |
+| [**`cncity`**](https://github.com/codefoxs/cncity) | 中国城市名标准化：把「深圳」「深圳市」「广东省深圳市」归到同一个口径 | ![](https://img.shields.io/github/stars/codefoxs/cncity?style=flat-square&label=&color=FFD700) |
+| [**`cnprov`**](https://github.com/codefoxs/cnprov) | 中国省份名标准化，`cncity` 的省级版本 | ![](https://img.shields.io/github/stars/codefoxs/cnprov?style=flat-square&label=&color=FFD700) |
+| [**`csmar`**](https://github.com/codefoxs/csmar) | 一行命令导入 CSMAR 的 zip / xlsx 原始文件，自动处理表头与变量名大小写 | ![](https://img.shields.io/github/stars/codefoxs/csmar?style=flat-square&label=&color=FFD700) |
+| [**`batch`**](https://github.com/codefoxs/batch) | 把命令模板套到 varlist 的每个变量上：`batch price mpg, f(gen l@ = log(@))` | ![](https://img.shields.io/github/stars/codefoxs/batch?style=flat-square&label=&color=FFD700) |
+| [**`datedv`**](https://github.com/codefoxs/datedv) | 快速日期处理，省掉一堆 `date()` / `format` 的样板代码 | ![](https://img.shields.io/github/stars/codefoxs/datedv?style=flat-square&label=&color=FFD700) |
+
+<details>
+<summary><b>📦 安装方式 · Installation</b></summary>
+
+<br/>
+
+除 `pstest` 外均为标准 Stata 包，把下面的 `PKG` 换成命令名即可：
+
+```stata
+cap ado uninstall PKG
+net install PKG, from("https://raw.githubusercontent.com/codefoxs/PKG/main/") replace
+```
+
+以 `cncity` 为例：
+
+```stata
+cap ado uninstall cncity
+net install cncity, from("https://raw.githubusercontent.com/codefoxs/cncity/main/") replace
+```
+
+需要历史版本时，把 `main` 换成对应 tag（如 `v1.0.0`）。
+
+`pstest` 是单文件 do 程序，下载 `mypstest.do` 后直接 `run`：
+
+```stata
+psmatch2 Treat X1 X2 X3, out(Y) n(1) cal(0.01) logit ate common ties
+run "mypstest.do"
+pstest X1 X2 X3, both graph
+psm2dta
+```
+
+</details>
+
+---
+
+## 🔬 Research Automation
+
+| Project | 说明 |
+| :--- | :--- |
+| [**`journal-rss`**](https://github.com/codefoxs/journal-rss) | 为 12 本财会顶刊生成 RSS 订阅源，数据取自 Crossref + OpenAlex，定时自动更新，不必再逐个刷期刊主页 |
+| [**`chinese_comovement`**](https://github.com/codefoxs/chinese_comovement) | 计算中国上市公司股票收益共同运动（stock price synchronicity）的 SAS 代码 |
+
+---
+
+## 🛠 Productivity Plugins
+
+| Plugin | 说明 |
+| :--- | :--- |
+| [**`utools-dataview`**](https://github.com/codefoxs/utools-dataview) | uTools 插件：秒开 csv / parquet / xlsx / dta / sav / sas7bdat 等数据文件，DuckDB 驱动，看一眼数据不用再启动 Stata |
+| [**`udict`**](https://github.com/codefoxs/udict) | uTools 插件：离线 MDX / MDD 词典查询，写英文论文时的贴身查词工具 |
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://img.shields.io/github/followers/codefoxs?style=for-the-badge&logo=github&label=Followers&color=5B8DEF&labelColor=0d1117" alt="followers" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fcodefoxs&query=%24.public_repos&label=Repos&style=for-the-badge&logo=github&color=5B8DEF&labelColor=0d1117" alt="repos" />
+<img src="https://komarev.com/ghpvc/?username=codefoxs&style=for-the-badge&label=Views&color=5B8DEF" alt="views" />
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=codefoxs&bg_color=0d1117&color=5B8DEF&line=5B8DEF&point=ffffff&area=true&hide_border=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=codefoxs&bg_color=ffffff&color=1A5F7A&line=1A5F7A&point=1A5F7A&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codefoxs&area=true&hide_border=true" width="100%" alt="activity graph" />
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=codefoxs&hide_border=true&background=0d1117&ring=5B8DEF&fire=5B8DEF&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=codefoxs&hide_border=true&background=ffffff&ring=1A5F7A&fire=1A5F7A&currStreakLabel=24292f" />
+  <img src="https://streak-stats.demolab.com?user=codefoxs&hide_border=true" height="170" alt="streak" />
+</picture>
+
+</div>
+
+<!--
+  想加上 github-readme-stats 的「统计卡片 / 语言占比卡片」，需要自部署一个 Vercel 实例：
+  官方公共实例 github-readme-stats.vercel.app 已 DEPLOYMENT_PAUSED，
+  github-profile-trophy.vercel.app 已 Payment required，都不可用，故此处未采用。
+
+  自部署后把 YOUR-INSTANCE 换成自己的域名，粘回上面的 <div align="center"> 里即可：
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=codefoxs&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=5B8DEF&icon_color=5B8DEF&text_color=c9d1d9&bg_color=0d1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://YOUR-INSTANCE.vercel.app/api?username=codefoxs&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=1A5F7A&icon_color=1A5F7A&text_color=24292f&bg_color=ffffff" />
+    <img src="https://YOUR-INSTANCE.vercel.app/api?username=codefoxs&show_icons=true&hide_border=true" height="170" alt="stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=codefoxs&layout=compact&langs_count=8&hide_border=true&title_color=5B8DEF&text_color=c9d1d9&bg_color=0d1117" />
+    <source media="(prefers-color-scheme: light)" srcset="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=codefoxs&layout=compact&langs_count=8&hide_border=true&title_color=1A5F7A&text_color=24292f&bg_color=ffffff" />
+    <img src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=codefoxs&layout=compact&hide_border=true" height="170" alt="top langs" />
+  </picture>
+-->
+
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/codefoxs/codefoxs/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/codefoxs/codefoxs/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/codefoxs/codefoxs/output/github-snake.svg" alt="snake" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+<i>做研究之余写点小工具。如果哪个命令帮你省下了半小时，给个 ⭐ 就是最好的反馈。</i>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer" />
+
+</div>
