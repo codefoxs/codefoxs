@@ -1,6 +1,5 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=codefoxs&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Econometrics%20%C2%B7%20Accounting%20%C2%B7%20Open%20Source%20Tooling&descAlignY=54&descSize=16" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:14304F,50:1A5F7A,100:5B8DEF&height=200&section=header&text=CodeFox&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=34&desc=Econometrics%20%C2%B7%20Accounting%20%C2%B7%20Open%20Source%20Tooling&descAlignY=54&descSize=16" width="100%" alt="header" />
 
 <a href="https://codefoxs.github.io">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=5B8DEF&center=true&vCenter=true&width=640&height=60&lines=PhD+Student+in+Accounting+%26+Finance;Stata+Package+Developer;Empirical+Research+%2B+Automation" alt="typing" />
@@ -8,10 +7,10 @@
 
 <br/>
 
-<a href="mailto:codefox2020@163.com"><img src="https://img.shields.io/badge/Email-codefox2020@163.com-D14836?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" /></a>
-<a href="https://www.zhihu.com/people/Keynes"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-Keynes-0084FF?style=for-the-badge&logo=zhihu&logoColor=white" alt="zhihu" /></a>
-<a href="https://codefoxs.github.io"><img src="https://img.shields.io/badge/Blog-codefoxs.github.io-2EA043?style=for-the-badge&logo=githubpages&logoColor=white" alt="blog" /></a>
-<img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%87%AF%E6%81%A9%E6%96%AF%E5%AD%A6%E8%AE%A1%E9%87%8F-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="wechat" />
+<a href="mailto:codefox2020@163.com"><img src="https://img.shields.io/badge/Email-1A5F7A?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" /></a>
+<a href="https://www.zhihu.com/people/Keynes"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-Keynes-2E6F9E?style=for-the-badge&logo=zhihu&logoColor=white" alt="zhihu" /></a>
+<a href="https://codefoxs.github.io"><img src="https://img.shields.io/badge/Blog-3E88C7?style=for-the-badge&logo=githubpages&logoColor=white" alt="blog" /></a>
+<img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%87%AF%E6%81%A9%E6%96%AF%E5%AD%A6%E8%AE%A1%E9%87%8F-5B8DEF?style=for-the-badge&logo=wechat&logoColor=white" alt="wechat" />
 
 </div>
 
@@ -45,59 +44,27 @@
 
 ## 🧰 Stata Toolbox
 
-<div align="center"><i>做实证时长出来的命令包 · 全部开源，欢迎提 issue</i></div>
+<div align="center"><i>做实证时长出来的命令包 · 点击命令名查看文档与安装方式</i></div>
 
 <br/>
 
 **📐 估计与推断 · Estimation & Inference**
 
-| Command | 说明 | Stars |
-| :--- | :--- | :--- |
-| [**`ivreghdfe2`**](https://github.com/codefoxs/ivreghdfe2) | `ivreghdfe` 增强版：修正二阶段 VCE，补齐 IV 诊断统计量与常数项，并同时保存两个阶段的结果 | ![](https://img.shields.io/github/stars/codefoxs/ivreghdfe2?style=flat-square&label=&color=FFD700) |
-| [**`pstest`**](https://github.com/codefoxs/pstest) | `pstest` 改版：PSM / ebalance 的平衡性检验结果一键转成 dta，方便直接排版成表 | ![](https://img.shields.io/github/stars/codefoxs/pstest?style=flat-square&label=&color=FFD700) |
+| Command | 说明 |
+| :--- | :--- |
+| [**`ivreghdfe2`**](https://github.com/codefoxs/ivreghdfe2) | `ivreghdfe` 增强版：修正二阶段 VCE，补齐 IV 诊断统计量与常数项，并同时保存两个阶段的结果 |
+| [**`pstest`**](https://github.com/codefoxs/pstest) | `pstest` 改版：PSM / ebalance 的平衡性检验结果一键转成 dta，方便直接排版成表 |
 
 **🧹 数据处理 · Data Wrangling**
 
-| Command | 说明 | Stars |
-| :--- | :--- | :--- |
-| [**`pmerge`**](https://github.com/codefoxs/pmerge) | 把 SQL 的 join 语义搬进 Stata，底层由 DuckDB 驱动，大表合并不再受内存摆布 | ![](https://img.shields.io/github/stars/codefoxs/pmerge?style=flat-square&label=&color=FFD700) |
-| [**`cncity`**](https://github.com/codefoxs/cncity) | 中国城市名标准化：把「深圳」「深圳市」「广东省深圳市」归到同一个口径 | ![](https://img.shields.io/github/stars/codefoxs/cncity?style=flat-square&label=&color=FFD700) |
-| [**`cnprov`**](https://github.com/codefoxs/cnprov) | 中国省份名标准化，`cncity` 的省级版本 | ![](https://img.shields.io/github/stars/codefoxs/cnprov?style=flat-square&label=&color=FFD700) |
-| [**`csmar`**](https://github.com/codefoxs/csmar) | 一行命令导入 CSMAR 的 zip / xlsx 原始文件，自动处理表头与变量名大小写 | ![](https://img.shields.io/github/stars/codefoxs/csmar?style=flat-square&label=&color=FFD700) |
-| [**`batch`**](https://github.com/codefoxs/batch) | 把命令模板套到 varlist 的每个变量上：`batch price mpg, f(gen l@ = log(@))` | ![](https://img.shields.io/github/stars/codefoxs/batch?style=flat-square&label=&color=FFD700) |
-| [**`datedv`**](https://github.com/codefoxs/datedv) | 快速日期处理，省掉一堆 `date()` / `format` 的样板代码 | ![](https://img.shields.io/github/stars/codefoxs/datedv?style=flat-square&label=&color=FFD700) |
-
-<details>
-<summary><b>📦 安装方式 · Installation</b></summary>
-
-<br/>
-
-除 `pstest` 外均为标准 Stata 包，把下面的 `PKG` 换成命令名即可：
-
-```stata
-cap ado uninstall PKG
-net install PKG, from("https://raw.githubusercontent.com/codefoxs/PKG/main/") replace
-```
-
-以 `cncity` 为例：
-
-```stata
-cap ado uninstall cncity
-net install cncity, from("https://raw.githubusercontent.com/codefoxs/cncity/main/") replace
-```
-
-需要历史版本时，把 `main` 换成对应 tag（如 `v1.0.0`）。
-
-`pstest` 是单文件 do 程序，下载 `mypstest.do` 后直接 `run`：
-
-```stata
-psmatch2 Treat X1 X2 X3, out(Y) n(1) cal(0.01) logit ate common ties
-run "mypstest.do"
-pstest X1 X2 X3, both graph
-psm2dta
-```
-
-</details>
+| Command | 说明 |
+| :--- | :--- |
+| [**`pmerge`**](https://github.com/codefoxs/pmerge) | 把 SQL 的 join 语义搬进 Stata，底层由 DuckDB 驱动，大表合并不再受内存摆布 |
+| [**`cncity`**](https://github.com/codefoxs/cncity) | 中国城市名标准化：把「深圳」「深圳市」「广东省深圳市」归到同一个口径 |
+| [**`cnprov`**](https://github.com/codefoxs/cnprov) | 中国省份名标准化，`cncity` 的省级版本 |
+| [**`csmar`**](https://github.com/codefoxs/csmar) | 一行命令导入 CSMAR 的 zip / xlsx 原始文件，自动处理表头与变量名大小写 |
+| [**`batch`**](https://github.com/codefoxs/batch) | 把命令模板套到 varlist 的每个变量上：`batch price mpg, f(gen l@ = log(@))` |
+| [**`datedv`**](https://github.com/codefoxs/datedv) | 快速日期处理，省掉一堆 `date()` / `format` 的样板代码 |
 
 ---
 
@@ -122,7 +89,6 @@ psm2dta
 ## 📊 GitHub Stats
 
 <div align="center">
-
 <img src="https://img.shields.io/github/followers/codefoxs?style=for-the-badge&logo=github&label=Followers&color=5B8DEF&labelColor=0d1117" alt="followers" />
 <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fcodefoxs&query=%24.public_repos&label=Repos&style=for-the-badge&logo=github&color=5B8DEF&labelColor=0d1117" alt="repos" />
 <img src="https://komarev.com/ghpvc/?username=codefoxs&style=for-the-badge&label=Views&color=5B8DEF" alt="views" />
@@ -185,6 +151,6 @@ psm2dta
 
 <i>做研究之余写点小工具。如果哪个命令帮你省下了半小时，给个 ⭐ 就是最好的反馈。</i>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5B8DEF,50:1A5F7A,100:14304F&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
