@@ -27,16 +27,14 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,r,latex,git,github,vscode,js,sqlite&theme=dark" alt="skills" />
+<img src="https://skillicons.dev/icons?i=python,latex,git,github,vscode,js,sqlite&theme=dark" alt="skills" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Stata-1A5F7A?style=flat-square&logoColor=white" alt="Stata" />
-<img src="https://img.shields.io/badge/SAS-0766D1?style=flat-square&logo=sas&logoColor=white" alt="SAS" />
+<img src="https://img.shields.io/badge/Stata-1A5F7A?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDE3aDR2NUgzem03LTZoNHYxMWgtNHptNy02aDR2MTdoLTR6Ii8+PC9zdmc+" alt="Stata" />
+<img src="https://img.shields.io/badge/SAS-0766D1?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDRoMTh2My41SDN6bTAgNmg4djRIM3ptMTAgMGg4djRoLTh6TTMgMTZoOHY0SDN6bTEwIDBoOHY0aC04eiIvPjwvc3ZnPg==" alt="SAS" />
 <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB" />
 <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-<img src="https://img.shields.io/badge/Crossref-3EB1C8?style=flat-square&logo=crossref&logoColor=white" alt="Crossref" />
-<img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
 
 </div>
 
