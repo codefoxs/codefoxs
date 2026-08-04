@@ -10,7 +10,12 @@
 <a href="mailto:codefox2020@163.com"><img src="https://img.shields.io/badge/Email-1A5F7A?style=for-the-badge&logo=maildotru&logoColor=white" alt="email" /></a>
 <a href="https://www.zhihu.com/people/Keynes"><img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-Keynes-2E6F9E?style=for-the-badge&logo=zhihu&logoColor=white" alt="zhihu" /></a>
 <a href="https://codefoxs.github.io"><img src="https://img.shields.io/badge/Blog-3E88C7?style=for-the-badge&logo=githubpages&logoColor=white" alt="blog" /></a>
-<img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-%E5%87%AF%E6%81%A9%E6%96%AF%E5%AD%A6%E8%AE%A1%E9%87%8F-5B8DEF?style=for-the-badge&logo=wechat&logoColor=white" alt="wechat" />
+
+<br/>
+
+<img src="./assets/gzh.jpg" width="150" alt="微信公众号 凯恩斯学计量 二维码" />
+
+<sub>微信公众号 · <b>凯恩斯学计量</b> · 扫码关注</sub>
 
 </div>
 
@@ -81,8 +86,8 @@
 
 <div align="center">
 <img src="https://img.shields.io/github/followers/codefoxs?style=for-the-badge&logo=github&label=Followers&color=5B8DEF&labelColor=0d1117" alt="followers" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fcodefoxs&query=%24.public_repos&label=Repos&style=for-the-badge&logo=github&color=5B8DEF&labelColor=0d1117" alt="repos" />
-<img src="https://komarev.com/ghpvc/?username=codefoxs&style=for-the-badge&label=Views&color=5B8DEF" alt="views" />
+<img src="https://img.shields.io/badge/Stata_Packages-8-5B8DEF?style=for-the-badge&labelColor=0d1117" alt="stata packages" />
+<img src="https://img.shields.io/badge/Since-2019-5B8DEF?style=for-the-badge&labelColor=0d1117" alt="since 2019" />
 
 <br/><br/>
 
