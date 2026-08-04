@@ -27,14 +27,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,latex,git,github,vscode,js,sqlite&theme=dark" alt="skills" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Stata-1A5F7A?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDE3aDR2NUgzem03LTZoNHYxMWgtNHptNy02aDR2MTdoLTR6Ii8+PC9zdmc+" alt="Stata" />
-<img src="https://img.shields.io/badge/SAS-0766D1?style=flat-square&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0zIDRoMTh2My41SDN6bTAgNmg4djRIM3ptMTAgMGg4djRoLTh6TTMgMTZoOHY0SDN6bTEwIDBoOHY0aC04eiIvPjwvc3ZnPg==" alt="SAS" />
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
+<img src="https://skillicons.dev/icons?i=python,latex,git,github,vscode,js,sqlite&theme=dark" alt="Python LaTeX Git GitHub VS Code JavaScript SQLite" />&nbsp;<img src="./assets/tech-extra.svg" alt="Stata SAS DuckDB pandas" height="48" />
 
 </div>
 
@@ -99,15 +92,13 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=codefoxs&area=true&hide_border=true" width="100%" alt="activity graph" />
 </picture>
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=codefoxs&hide_border=true&background=0d1117&ring=5B8DEF&fire=5B8DEF&currStreakLabel=c9d1d9&sideLabels=c9d1d9&dates=8b949e" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=codefoxs&hide_border=true&background=ffffff&ring=1A5F7A&fire=1A5F7A&currStreakLabel=24292f" />
-  <img src="https://streak-stats.demolab.com?user=codefoxs&hide_border=true" height="170" alt="streak" />
-</picture>
-
 </div>
+
+<!--
+  已移除 streak-stats.demolab.com 的连续提交卡片：该服务响应耗时实测 3~22 秒
+  （其余组件均 <1 秒），远超 GitHub camo 图片代理的抓取超时，导致长期裂图；
+  且偶发返回残缺 SVG。贡献趋势已由上方 activity graph 与下方蛇图覆盖。
+-->
 
 <!--
   想加上 github-readme-stats 的「统计卡片 / 语言占比卡片」，需要自部署一个 Vercel 实例：

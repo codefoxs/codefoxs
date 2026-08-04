@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="217" height="48" viewBox="0 0 1156 256" fill="none">
+  <!-- 与 skillicons.dev 对齐：瓷砖 256、圆角 60、底色 #242938、步距 300 -->
+
+  <!-- Stata：递增柱状图 -->
+  <g transform="translate(0, 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <g transform="translate(64, 64) scale(5.3333)">
+      <path d="M0 13h6v11H0zM9 7h6v17H9zM18 0h6v24h-6z" fill="#5B8DEF"/>
+    </g>
+  </g>
+
+  <!-- SAS：数据表格 -->
+  <g transform="translate(300, 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <g transform="translate(64, 64) scale(5.3333)">
+      <path d="M0 0h24v5H0zM0 8h11v7H0zM13 8h11v7H13zM0 18h11v6H0zM13 18h11v6H13z" fill="#4A9FE0"/>
+    </g>
+  </g>
+
+  <!-- DuckDB：simple-icons -->
+  <g transform="translate(600, 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <g transform="translate(64, 64) scale(5.3333)">
+      <path d="M12 0C5.363 0 0 5.363 0 12s5.363 12 12 12 12-5.363 12-12S18.637 0 12 0zM9.502 7.03a4.974 4.974 0 0 1 4.97 4.97 4.974 4.974 0 0 1-4.97 4.97A4.974 4.974 0 0 1 4.532 12a4.974 4.974 0 0 1 4.97-4.97zm6.563 3.183h2.351c.98 0 1.787.782 1.787 1.762s-.807 1.789-1.787 1.789h-2.351v-3.551z" fill="#FFF000"/>
+    </g>
+  </g>
+
+  <!-- pandas：simple-icons -->
+  <g transform="translate(900, 0)">
+    <rect width="256" height="256" rx="60" fill="#242938"/>
+    <g transform="translate(64, 64) scale(5.3333)">
+      <path d="M16.922 0h2.623v18.104h-2.623zm-4.126 12.94h2.623v2.57h-2.623zm0-7.037h2.623v5.446h-2.623zm0 11.197h2.623v5.446h-2.623zM4.456 5.896h2.622V24H4.455zm4.213 2.559h2.623v2.57H8.67zm0 4.151h2.623v5.447H8.67zm0-11.187h2.623v5.446H8.67Z" fill="#E70488"/>
+    </g>
+  </g>
+</svg>
